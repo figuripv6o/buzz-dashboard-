@@ -1,27 +1,39 @@
-buzz-dashboard/
+buzz-world/
 │
-├── index.html              # UI shell (what you already have)
-├── README.md
+├── index.html                # 🌐 Main landing (your hub)
 │
-├── /core                   # 🧠 system logic (THIS is your pipeline)
-│   ├── eventBus.js
-│   ├── pipeline.js
-│   ├── state.js
+├── /apps                     # 🚀 All your products
+│   ├── buzz-dashboard/
+│   │   └── index.html
+│   │
+│   ├── buzzflow/
+│   │   └── index.html
+│   │
+│   ├── buzzpay/
+│   │   └── index.html
+│   │
+│   ├── buzztv/
+│   │   └── index.html
+│   │
+│   ├── airadio/
+│   │   └── index.html
+│   │
+│   ├── ai-communications/
+│   │   └── index.html
 │
-├── /modules                # ⚙️ pipeline stages
-│   ├── buzzflow.js
-│   ├── buzzanator.js
-│   ├── sync.js
+├── /platform                 # ⚙️ Core systems
+│   ├── event-bus/
+│   ├── e2e-encryption/
+│   ├── offline-storage/
 │
-├── /ui                     # 🎛 UI logic (not styling)
-│   ├── actions.js
-│   ├── renderer.js
+├── /labs                     # 🧪 Experimental stuff
+│   ├── buzz-cyberspace-lab/
+│   │   └── index.html
 │
-├── /log                    # 📜 logging system
-│   ├── bloblog.js
+├── /portfolio                # 💼 Your personal site
+│   └── index.html
 │
-├── /styles                 # 🎨 optional later
-│   └── main.css
-│
-└── /config                 # ⚙️ settings
-    └── modes.js
+└── /assets                   # 🎨 Shared UI
+    ├── css/
+    ├── js/
+    └── images/
