@@ -1,0 +1,27 @@
+buzz-dashboard/
+│
+├── index.html              # UI shell (what you already have)
+├── README.md
+│
+├── /core                   # 🧠 system logic (THIS is your pipeline)
+│   ├── eventBus.js
+│   ├── pipeline.js
+│   ├── state.js
+│
+├── /modules                # ⚙️ pipeline stages
+│   ├── buzzflow.js
+│   ├── buzzanator.js
+│   ├── sync.js
+│
+├── /ui                     # 🎛 UI logic (not styling)
+│   ├── actions.js
+│   ├── renderer.js
+│
+├── /log                    # 📜 logging system
+│   ├── bloblog.js
+│
+├── /styles                 # 🎨 optional later
+│   └── main.css
+│
+└── /config                 # ⚙️ settings
+    └── modes.js
